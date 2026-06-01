@@ -40,7 +40,7 @@
 							<div class="inner">
 								<!-- Here is a heading where you can put your name -->
 								<h1>
-									Dr. Callie Clontz
+									Callie Clontz Ph.D.
 								</h1>
 								<!-- 	Here is an image where you can put a picture of you. 
 									You can change the width and height attributes below to change how large
@@ -138,33 +138,86 @@
 								<!-- 	A <br> tag puts in a break so that the text that follows it displays on
 									the next line.
 								-->
-								<b>Individual Stellar Population Parsing</b>
-								<br>
-								In Clontz et al. 2024 I measured precise ages for >8k subgiant branch stars in 
-							</p>
+							My research focuses on the formation history of the Milky Way's largest and most enigmatic star cluster, Omega Centauri. 
+							This complex star cluster stands out against classical globular clusters in many ways and is thought to be the stripped nuclear star cluster
+								of one of our galaxy's most recent and impactful mergers. Understanding its seeding and assembly grants us insights into how galactic centers
+								take shape and gets us closer to unraveling the mystery of the multiple stellar population phenomenon only observed in dense star clusters. 
+							My PhD worked utilized two well-studied probes of nuclear star cluster formation, the age-metallicity relation (AMR) 
+								and the Chromosome Diagram (ChD), to study Omega Centauri.
+								
 							<p>
-								<b>Helium Enhancements as a Function of Metallicity</b><br>Project description, including further links to posters, talks, publications.
+								<b>Precise Ages of Individual Stars</b>
+								<br>
+ 								In Clontz+ 2024 I constrained precise ($\sigma_{age} > 0.6$ Gyr) ages for $>$8000 individual sub giant branch (SGB) stars using updated
+								isochrone models. In the AMR I uncovered two distinct sequences (black points, upper panel, Fig. 2). However, the tighter, supposed 
+								self-enriching, sequence is more metal-poor at a fixed age than the seemingly accreted component, which is inconsistent with our current 
+								models of NSC formation (Neumayer+ 2020). The lack of stars with both ages and abundance information makes interpretation difficult. 
+								To fill this knowledge gap, I successfully proposed for high-resolution spectroscopic observations (using FLAMES@VLT) of $\sim$120 
+								stars occupying the two streams. I executed the observations in visitor mode in April 2025.
 							</p>
 
 							<p>
-								<b>Precise Ages of Individual Stars</b><br>Project description, including further links to posters, talks, publications.
+								<b>Helium Enhancements as a Function of Metallicity</b>
+								<br>
+								The ages study focused on the SGB to avoid model complications due to unknown helium abundances, and spectroscopic helium constraints 
+								for individual stars are observationally challenging to obtain. Due to these complexities, exact helium abundances for large samples 
+								of stars do not exist. Therefore, in my second PhD work (Clontz+ 2025), I focused on the helium enhancement between the P1 (primoridial) 
+								population and the P2 (hot-hydrogen-burning polluted, see Fig. 1) populations on the red-giant branch (RGB) in $\omega$ Cen to better 
+								constrain its enhancement as a function of metallicity. I built upon previous works by using star-by-star abundances derived via the 
+								Data Driven Payne machine learning techniques applied to the MUSE data (Wang+ 2026) as well as ATLAS12 + SYNTHE models to model and 
+								subtract contributions to the spread in the ChD from all sources except helium, thus isolating its contribution. The isolated contribution 
+								from helium was then converted to an enhancement using a standard ruler. The P2 population exhibits a rapid increase in helium enhancement 
+								until [Fe/H] $\sim$-1.9, after which the relationship is flat at $\Delta$ Y = 0.154. This signals a change in the efficiency of helium
+								production and a major shift in the mode of stellar evolution of the P2 population. $\Delta$ Y = 0.15 indicates a total helium mass 
+								fraction of Y = 0.40 for the P2 stars which is unprecedented in our Milky Way. The polluter source for such high helium abundances is still
+								unknown and is actively under investigation. This open question has important implication for star formation and evolution in ultra-high 
+								stellar density environments and at high redshift. 							
 							</p>
+
+							<p>
+								<b>Individual Stellar Population Parsing</b>
+								<br>
+								My most recent work (Clontz+ 2026) finally showed the connection between the two assembly probes, the AMR and the ChD, to connect the 
+								P1, Im, and P2 populations with the two star formation tracks of the AMR. I began by identifying populations on the RGB, using a 
+								Gaussian Mixture model to determine the number of subpopulations, then a KMeans clustering algorithm to apply the first subpopulation labels.
+								I propagated these labels to fainter magnitudes via a K-Nearest-Neighbors algorithm along with luminosity function constraints from our 
+								synthetic stellar population modeling. After several iterations to fainter magnitudes, I arrived at subpopulation labels for over 53k stars,
+								across our 14 distinct subpopulations, covering 12.8 $<$ F814W $<$ 19.3. I then matched these with the catalog from my 2024 work, assigning ages 
+								to $>$2700 stars. I can now see that the P1, Im, and P2 populations do not map 1-to-1 onto the two-stream AMR (upper panel, Fig. 2) but rather
+									stack vertically in this space. I also compare their respective star formation histories (lower panel, Fig 2.) and see that P1 and 
+									Im populations share similar enrichment histories while P2 experienced slower star formation. My recent works, along with the other 
+									oMEGACat projects, constitute a large step toward understanding how stellar populations and stellar generations form and co-evolve.
+							</p>
+
+							<p>
+								<b>Abundances of SGB Stars: Connecting AMR with Chemistry</b>
+								<br>
+								My current work is analyzing the spectra of 120 sub-giant branch stars to combine chemical abundances and ages for stars in $\omega$ Cen 
+									for the first time. This will allow us to assert the chemical enrichment environments of the two streams of the age-metallicity relation.
+									I proposed, planned, and executed these observations in visitor mode and have also performed all of the data reduction steps myself. 
+									Extraction was done with ESOReflex, telluric corrections were done using Molecfit and more precise sky subtraction was applyed using pPXF.
+									I have stacked the 6 exposures I have for each star and am now working on measuring stellar parameters and detailed chemical abundances
+									of $\sim$ a dozen elements using TSFitPy. I have really enjoyed the steep learning curve of doing spectroscopic work from start to finish
+									and am excited to see what I find in the coming weeks and months.
+							</p>
+
+									
 						</article>
 
 						<!-- Here is the "Community" card. -->
-						<article id="community">
-							<h2 class="major">Community</h2>
+						<article id="Activism">
+							<h2 class="major">Activism</h2>
 							<span class="image main">
 								<img src="images/pic03.jpg" alt=""/>
 							</span>
 							<p>
-								<b>Teaching:</b>
+								<b>MPIA Sustainability Committee:</b>
 							</p>
 							<p>
-								<b>Outreach:</b>
+								<b>Astronomers for Planet Earth:</b>
 							</p>
 							<p>
-								<b>Equity & Inclusion:</b>
+								<b>Teaching, Outreach, and Community Involvement:</b>
 							</p>
 						</article>
 
@@ -182,14 +235,14 @@
 							<ul class="icons">
 								<!-- The LinkedIn Icon -->
 								<li>
-									<a href="https://www.linkedin.com/in/callieclontz/"<i class="fa-brands fa-square-linkedin"></i>
+									<a href="https://www.linkedin.com/in/callieclontz/"<class="fa-brands fa-square-linkedin">
 										<span class="label">LinkedIn</span>
 									</a>
 								<li>
 								<!-- The GitHub icon -->
 								
 								<li>
-									<a href="https://www.callieclontz/github.io"<i class="fa-brands fa-square-github"></i>
+									<a href="https://github.com/callieclontz" class="fa-brands fa-square-github">
 										<span class="label">GitHub</span>
 									</a>
 								</li>
