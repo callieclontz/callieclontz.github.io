@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+	<!DOCTYPE HTML>
 <!--
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
@@ -98,9 +98,10 @@
 							<span class="image main">
 								<img src="images/IMG_4535.jpeg" alt=""/>
 							</span>
+							
+							
 							<!-- Here are three paragraphs where you can fill out information about yourself -->
 							<p>
-								
 							<b> Origin:</b> North Carolina, USA
 							</p>	
 							
@@ -119,10 +120,17 @@
 									the multiple stellar population phenomenon in Globular Clusters, and ultra-high helium abundances. 
 									My works thus far have approached each of these topics through the analysis of the formation of our
 									Galaxy's largest star cluster, Omega Centauri.
-								<b>Publications:</b> <a href="https://ui.adsabs.harvard.edu/public-libraries/5BUbIJ-pRUe7-0ab9_iLHg">Find the full ADS list here!</a>
 
 							</p>
-								In my free time you will find me studying German, learning QGIS, or enjoying being outdoors (riding my bike, climbing/bouldering, or gardening).
+							<p>
+								<b>Publications:</b> <a href="https://ui.adsabs.harvard.edu/public-libraries/5BUbIJ-pRUe7-0ab9_iLHg">Find the full ADS list here!</a>
+							</p>
+							
+							In my free time you will find me studying German, learning QGIS, or enjoying being outdoors (riding my bike, climbing/bouldering, or gardening).
+
+							<span class="image main">
+								<img src="images/me_outside.jpeg" alt=""/>
+							</span>
 							
 						</article>
 
@@ -136,39 +144,55 @@
 								<!-- 	A <br> tag puts in a break so that the text that follows it displays on
 									the next line.
 								-->
-							My research focuses on the formation history of the Milky Way's largest and most enigmatic star cluster, Omega Centauri. 
+							My research focuses on the formation history of our Milky Way's largest and most enigmatic star cluster, Omega Centauri. 
 							This complex star cluster stands out against classical globular clusters in many ways and is thought to be the stripped nuclear star cluster
 								of one of our galaxy's most recent and impactful mergers. Understanding its seeding and assembly grants us insights into how galactic centers
 								take shape and gets us closer to unraveling the mystery of the multiple stellar population phenomenon only observed in dense star clusters. 
 
 							<br>
 								
-							My PhD worked utilized two well-studied probes of nuclear star cluster formation, the age-metallicity relation (AMR) 
-							and the Chromosome Diagram (ChD), to study Omega Centauri.
-								
-							<p>
-								<b>Precise Ages of Individual Stars</b>
-								<br>
-		
- 								<ul>
-								  <li>In Clontz+ 2024, I constrained precise ages for more than 8,000 individual subgiant branch (SGB) stars using updated isochrone models.</li>
-								  <li>In the age-metallicity relation (AMR), I discovered two distinct sequences.</li>
-								  <li>The tighter, supposedly self-enriching sequence is more metal-poor at a fixed age than the seemingly accreted component,
-									  which is inconsistent with current models of nuclear star cluster (NSC) formation.</li>
-								  <li>The lack of stars with both age and abundance information makes interpretation difficult.</li>
-								  <li>To address this gap, I successfully proposed high-resolution spectroscopic observations using FLAMES@VLT for 
-									  approximately 120 stars occupying the two streams.</li>
-								  <li>I executed these observations in visitor mode in April 2025 and the analysis of these data is ongoing (see below).</li>
-								</ul>
-							</p> 
+							My PhD worked utilized two well-studied probes of nuclear star cluster formation, the age-metallicity relation
+							and the Chromosome Diagram, to study Omega Centauri.
 
+							<p>
+								<b>Abundances of SGB Stars: Connecting the Age-Metallicity Relation with Chemistry</b>
+								<br>
+								
+								<img src="{/images/SGB_star_abundances_image.png" style="display: block; margin: auto;" />
+								<ul>
+								<li>My current work is analyzing the spectra of 120 subgiant branch stars to combine chemical abundances and ages for stars in Omega Centauri for the first time. </li>
+								<li>This will allow us to assert the chemical enrichment environments of the two streams of the age-metallicity relation.</li>
+								<li>I proposed, planned, and executed these observations in visitor mode and have also performed all of the data reduction steps myself. </li>
+								<li> I have stacked the 6 exposures I have for each star and am now working on measuring stellar parameters and detailed chemical abundances
+									of around a dozen elements using TSFitPy. </li>
+								</ul>
+							</p>
+
+							<p>
+								<b>Individual Stellar Population Parsing</b>
+								<br>
+								<img src="{/images/subpops_image.png" style="display: block; margin: auto;" />
+
+								<ul>
+								<li>My most recent work (<a href="https://ui.adsabs.harvard.edu/abs/2026ApJ...998..177C/abstract">Clontz et al. 2026</a>) made a major step forward by showing the
+									connection between the two assembly probes, the age-metallicity relation and the Chromosome Diagram, to connect the 
+									P1, Im, and P2 populations with the two star formation tracks of the age-metallicity relation. </li>
+								<li>By combining statistical and machine learning methods I assigned subpopulation labels to over 53k stars across our 14 distinct subpopulations.</li> 	
+								<li>I then matched these with the catalog from my 2024 work, assigning ages to >2700 stars and finding mean ages (and age spreads) for each subpopulation.</li>
+								<li>I calculated star formation histories for each Chromosome Diagram stream.</li>
+
+								</ul>
+								</p>
+									
 							<p>
 								<b>Helium Enhancements as a Function of Metallicity</b>
 								<br>
+								<img src="{/images/helium_paper_image.png" style="display: block; margin: auto;" />
+
 								<ul>
 									<li>The ages study focused on the SGB to avoid model complications due to unknown helium abundances, and spectroscopic helium constraints 
 									for individual stars are observationally challenging to obtain.  </li>	
-									<li>Therefore, in my second PhD work (Clontz+ 2025), I focused on the helium enhancement between the P1 (primoridial) 
+									<li>Therefore, in my second PhD work (<a href="https://ui.adsabs.harvard.edu/abs/2025ApJ...984..162C/abstract">Clontz et al. 2025</a>), I focused on the helium enhancement between the P1 (primoridial) 
 									population and the P2 (hot-hydrogen-burning polluted) populations on the red-giant branch (RGB) in Omega Centauri to better 
 									constrain its enhancement as a function of metallicity.  </li>
 									<li>I found that the P2 population exhibits a rapid increase in helium enhancement until [Fe/H] ~ -1.9, after which the relationship is flat at Delta Y = 0.154.  </li>
@@ -179,54 +203,53 @@
 								</ul>
 							
 						</p>
-
 							<p>
-								<b>Individual Stellar Population Parsing</b>
+								<b>Precise Ages of Individual Stars</b>
 								<br>
-								<ul>
-								<li>My most recent work (Clontz+ 2026) finally showed the connection between the two assembly probes, the AMR and the ChD, to connect the 
-								P1, Im, and P2 populations with the two star formation tracks of the AMR. </li>
-								<li>By combining statistical and machine learning methods I arrived at subpopulation labels for over 53k stars across our 14 distinct subpopulations, covering 12.8 $<$ F814W $<$ 19.3.</li> 	
-								<li>I then matched these with the catalog from my 2024 work, assigning ages to $>$2700 stars.</li>
-								<li>I (and the community) can now see, for the first time, how the P1, Im, and P2 populations of the ChD map onto the two-stream AMR.</li>
+								<img src="{/images/SGB_ages_image.png" style="display: block; margin: auto;" />
+
+ 								<ul>
+								  <li>In (<a href="https://ui.adsabs.harvard.edu/abs/2024ApJ...977...14C/abstract">Clontz et al. 2024</a>), I constrained precise ages for more than 8,000 individual subgiant branch (SGB) stars using updated isochrone models.</li>
+								  <li>In the age-metallicity relation, I discovered two distinct sequences.</li>
+								  <li>The tighter, supposedly self-enriching sequence is more metal-poor at a fixed age than the seemingly accreted component,
+									  which is inconsistent with current models of nuclear star cluster (NSC) formation.</li>
+								  <li>The lack of stars with both age and abundance information makes interpretation difficult.</li>
+								  <li>To address this gap, I successfully proposed high-resolution spectroscopic observations using FLAMES@VLT for 
+									  approximately 120 stars occupying the two streams.</li>
+								  <li>I executed these observations in visitor mode in April 2025 and the analysis of these data is ongoing (see below).</li>
 								</ul>
-								</p>
-
-							<p>
-								<b>Abundances of SGB Stars: Connecting AMR with Chemistry</b>
-								<br>
-								<li>My current work is analyzing the spectra of 120 sub-giant branch stars to combine chemical abundances and ages for stars in $\omega$ Cen 
-									for the first time. </li>
-								<li>This will allow us to assert the chemical enrichment environments of the two streams of the age-metallicity relation.</li>
-								<li>I proposed, planned, and executed these observations in visitor mode and have also performed all of the data reduction steps myself. </li>
-								<li> I have stacked the 6 exposures I have for each star and am now working on measuring stellar parameters and detailed chemical abundances
-									of around a dozen elements using TSFitPy. </li>
-							</p>
-
+							</p> 
 									
 						</article>
 
-						<!-- Here is the "Community" card. -->
+						<!-- Here is the "Activism" card. -->
 						<article id="activism">
 							<h2 class="major">Activism</h2>
 							<span class="image main">
-								<img src="images/pic03.jpg" alt=""/>
+								<img src="images/climate_activism_website_page_banner.jpg" alt=""/>
 							</span>
 							<p>
-								<b><a href="https://www.mpia.de/en/institute/sustainability/sustainability-group/">MPIA Sustainability Group:</a></b>
-
+								<img src="images/mpia_sus_icon.png" alt="MPIA Sustainability icon" style="height:1em; vertical-align:middle; margin-right:0.4em;">
+  								<b><a href="https://www.mpia.de/en/institute/sustainability/sustainability-group/">MPIA Sustainability Group</a></b>
+								As the primary organizer of the MPIA Sustainability Group (since Summer 2023), I have successfully
+								<ul>
+								<li> improved bike infrastructure by having a maintenance station installed </li>
+								<li> added severeal Bee Hotels to support pollinators on the Königstuhl</li>
+								<li> been involved in main building extension decision making</li>
+								<li> coordinated 2 climate colloquia by invited speakers </li>
+								<li> provided resources for environmentally conscious business travel to research groups </li>
+								<li>Check out our webpage <a href="https://www.mpia.de/en/institute/sustainability/sustainability-group/">here!</a></b>
+								</ul>
 							</p>
 							<p>
-								<b><a href="https://a4e.org/">Astonomers for Planet Earth</a></b>
-									Astronomers for Planet Earth (A4E) is an international grass-roots movement of astronomy students, educators, 
-										amateurs and scientists, working to address The Climate Crisis from an astronomical perspective. 
+							  <img src="images/a4e-icon.png" alt="Astronomers for Planet Earth icon" style="height:1em; vertical-align:middle; margin-right:0.4em;">
+  									<b><a href="https://a4e.org/">Astronomers for Planet Earth</a></b>
+									"Astronomers for Planet Earth (A4E) is an international grass-roots movement of astronomy students, educators, 
+										amateurs and scientists, working to address The Climate Crisis from an astronomical perspective." 
 										I am an active member of the organization since May 2023, when I helped co-found the German Chapter of the affiliated NGO.
-								 		I am also a member of the Steering Committee since May 2025. 
+								 		I am also a member of the Steering Committee since May 2025. Check out our webpage <a href="https://a4e.org/">here!</a>
 							</p>
-							<p>
-								<b>Teaching, Outreach, and Community Involvement:</b>
-								
-							</p>
+
 						</article>
 
 						<!-- Here is a the "Contact" card. -->
